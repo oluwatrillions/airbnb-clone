@@ -1,0 +1,19 @@
+.liveAnywhere {
+  display: flex;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.liveAnywhere h1 {
+  margin-top: 30px;
+  margin-left: 155px;
+}
+
+.liveAnywhere img {
+  width: 380px;
+  height: 400px;
+  border-radius: 15px;
+  padding-left: 2px;
+  padding-right: 10px;
+  margin-bottom: -17px;
+}

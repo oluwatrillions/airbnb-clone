@@ -4,7 +4,7 @@ import './CitiesAround.css'
 function CitiesAround({src, city, distance}) {
     return (
         <div className='explore'>    
-            <img src={src} />
+            <img src={src} alt=''/>
             <div>
                 <h3>{city}</h3>
                 <h4>{ distance }</h4>

@@ -2,6 +2,7 @@ import React from 'react'
 import Header from './Header'
 import Explore from './Explore'
 import ExploreDiv from './ExploreDiv';
+import Choices from './Choices';
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <ExploreDiv/>
       <Explore />
+      <Choices />
     </div>
   );
 }

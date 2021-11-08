@@ -7,6 +7,8 @@
 .logo {
   width: 100px;
   margin-left: -600px;
+  box-sizing: border-box;
+  overflow: hidden;
 }
 
 .header {
@@ -125,6 +127,7 @@ button {
   background: transparent;
   border: none;
   overflow: hidden;
+  box-sizing: border-box;
 }
 
 .guests {
