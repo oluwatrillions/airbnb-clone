@@ -3,6 +3,7 @@ import Header from './Header'
 import Explore from './Explore'
 import ExploreDiv from './ExploreDiv';
 import Choices from './Choices';
+import Hosting from './Hosting';
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <ExploreDiv/>
       <Explore />
       <Choices />
+      <Hosting />
     </div>
   );
 }

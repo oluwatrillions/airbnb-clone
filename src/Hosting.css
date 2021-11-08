@@ -1,0 +1,45 @@
+.opportunities {
+  position: relative;
+  box-sizing: border-box;
+}
+
+.opportunities h3 {
+  display: block;
+  position: absolute;
+  top: 300px;
+  left: 450px;
+  font-size: 1.5em;
+}
+
+.opportunities img {
+  width: 81.2vw;
+  height: 80vh;
+  position: relative;
+  margin-left: 155px;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+
+.opportunities button {
+  top: 550px;
+  left: 450px;
+  position: absolute;
+  width: 120px;
+  height: 50px;
+  background: rgb(31, 30, 30);
+  color: aliceblue;
+  font-size: 1em;
+  font-weight: 600;
+  border-radius: 8px;
+}
+
+span {
+  display: block;
+  font-size: 3.5em;
+  margin-left: -70px;
+}
+
+.opportunities .card {
+  margin-left: -110px;
+  margin-top: -40px;
+}
