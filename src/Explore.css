@@ -1,0 +1,25 @@
+.explore-section {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  margin: 0 150px;
+}
+
+.explore-section img {
+  height: 65px;
+  width: 65px;
+  box-sizing: border-box;
+  justify-content: center;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+.explore-section h3 {
+  margin-top: 12px;
+}
+
+.explore-section h4 {
+  margin-top: -15px;
+  font-size: 16px;
+  font-weight: 500;
+}
