@@ -4,6 +4,8 @@ import Explore from './Explore'
 import ExploreDiv from './ExploreDiv';
 import Choices from './Choices';
 import Hosting from './Hosting';
+import Discover from './Discover';
+
 
 
 function App() {
@@ -14,6 +16,7 @@ function App() {
       <Explore />
       <Choices />
       <Hosting />
+      <Discover />
     </div>
   );
 }

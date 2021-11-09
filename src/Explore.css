@@ -3,6 +3,7 @@
   grid-template-columns: auto auto auto auto;
   grid-gap: 10px;
   margin: 0 150px;
+  min-width: fit-content;
 }
 
 .explore-section img {
@@ -12,6 +13,7 @@
   justify-content: center;
   margin-right: 20px;
   border-radius: 10px;
+  min-width: fit-content;
 }
 
 .explore-section h3 {

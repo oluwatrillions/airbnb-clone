@@ -32,12 +32,12 @@ function Explore(props) {
                     city='Ibadan'
                     distance='2 hours drive'/>
                 <CitiesAround
-                    src='	https://a0.muscache.com/im/pictures/a1617dd0-7140-4c64-814f-384d174a78be.jpg?im_q=medq&im_w=240'
+                    src='https://a0.muscache.com/im/pictures/a1617dd0-7140-4c64-814f-384d174a78be.jpg?im_q=medq&im_w=240'
                     alt=''
                     city='Enugu'
                     distance='7 hour drive'/>
                 <CitiesAround
-                    src='	https://a0.muscache.com/im/pictures/1bb8b6ff-17ec-4f01-96df-27d0ba265b16.jpg?im_q=medq&im_w=240'
+                    src='https://a0.muscache.com/im/pictures/1bb8b6ff-17ec-4f01-96df-27d0ba265b16.jpg?im_q=medq&im_w=240'
                     alt=''
                     city='Ikorodu'
                     distance='30 minute drive'/>

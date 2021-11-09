@@ -1,0 +1,77 @@
+.experiences {
+  display: flex;
+  padding: 15px;
+  justify-content: center;
+  margin-top: 48px;
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
+  min-width: fit-content;
+}
+
+.discovery {
+  margin-top: 90px;
+  margin-left: 150px;
+  margin-bottom: -10px;
+}
+
+.experiences img {
+  margin-right: 25px;
+  width: 767px;
+  border-radius: 10px;
+  min-width: fit-content;
+}
+
+.first h1 {
+  left: 235px;
+  position: absolute;
+  top: 70px;
+  color: whitesmoke;
+  font-size: 2.5em;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.second h1 {
+  position: absolute;
+  top: 70px;
+  right: 535px;
+  color: whitesmoke;
+  font-size: 2.5em;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.first span {
+  display: block;
+  text-align: center;
+  font-size: 0.45em;
+  width: 150px;
+  height: 45px;
+  background: whitesmoke;
+  color: black;
+  margin-left: 50px;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 8px;
+  padding-top: 14px;
+  margin-top: 30px;
+  margin-left: 4px;
+}
+
+.second span {
+  display: block;
+  text-align: center;
+  font-size: 0.45em;
+  width: 200px;
+  height: 45px;
+  background: whitesmoke;
+  color: black;
+  margin-left: 50px;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 8px;
+  padding-top: 14px;
+  margin-top: 30px;
+  margin-left: 4px;
+}
