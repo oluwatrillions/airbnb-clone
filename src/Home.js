@@ -1,9 +1,17 @@
 import React from 'react'
-import './Discover.css'
+import './Home.css'
+import Banner from './Banner'
+import Explore from './Explore'
+import Choices from './Choices'
+import Hosting from './Hosting'
 
-function Discover() {
+function Home() {
     return (
         <div className='airbnb'>
+            <Banner />
+            <Explore />
+            <Choices />
+            <Hosting />
              <h1 className='discovery'>Discover Airbnb Experiences</h1>
             <div className='experiences'>
                 <div className='first'>
@@ -16,10 +24,9 @@ function Discover() {
                         alt='' />
                     <h1>Things to do<br/> from home <span>Online Experiences</span></h1>
                 </div>
-                
             </div>
         </div>
     )
 }
 
-export default Discover
+export default Home

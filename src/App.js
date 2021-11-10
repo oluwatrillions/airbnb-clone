@@ -1,22 +1,30 @@
 import React from 'react'
 import Header from './Header'
-import Explore from './Explore'
-import ExploreDiv from './ExploreDiv';
-import Choices from './Choices';
-import Hosting from './Hosting';
-import Discover from './Discover';
+import Footer from './Footer';
+import Home from './Home';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
+import Search from './Search';
 
 
 
 function App() {
   return (
     <div>
-      <Header />
-      <ExploreDiv/>
-      <Explore />
-      <Choices />
-      <Hosting />
-      <Discover />
+      <Router>
+        <Header />
+
+        <Switch>
+          <Route path="/">
+        <Home />
+          </Route>
+           {/* <Route exact path="/search">
+        <Search />
+          </Route> */}
+        </Switch>
+        
+        <Footer />
+        <Search/>
+      </Router>
     </div>
   );
 }

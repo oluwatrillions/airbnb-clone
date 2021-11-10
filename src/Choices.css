@@ -1,7 +1,15 @@
+.h3 {
+  padding-top: 50px;
+}
+
 .liveAnywhere {
-  display: flex;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin-left: 150px;
+  margin-right: 150px;
   box-sizing: border-box;
   overflow: hidden;
+  min-width: fit-content;
 }
 .liveAnywhere {
   min-width: fit-content;
@@ -13,10 +21,14 @@
 }
 
 .liveAnywhere img {
-  width: 380px;
+  width: 386px;
   height: 400px;
   border-radius: 15px;
   padding-left: 2px;
   padding-right: 10px;
   margin-bottom: -17px;
+}
+
+.h3 h1 {
+  padding-left: 150px;
 }

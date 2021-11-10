@@ -30,37 +30,7 @@ function Header() {
                         src="https://img.icons8.com/external-becris-lineal-color-becris/64/000000/external-user-avatars-becris-lineal-color-becris.png"
                         alt='' />
                      </div>
-                   </div>    
-                  
-            </div>
-            <div className='search'>
-                <form className='location'>
-                    <label for='location'>Location</label>
-                    <input type='text' name='location' placeholder='Where are you going?'/>
-                </form>
-                <form className='check-in'>
-                    <label for='check-in'>Check in</label>
-                    <input type='text' name='checkin' placeholder='Add dates'/>
-                </form>
-                <form className='check-out'>
-                    <label for=''>Check-out</label>
-                    <input type='text' name='checkout' placeholder='Check out'/>
-                </form>
-                <form className='guests'>
-                    <label for='guests'>Guests</label>
-                    <input type='text' name='guests' placeholder='Add guests'/>
-                </form>
-
-                <div className='searchbtn'>
-                  <button>
-                    <img src="https://img.icons8.com/material-sharp/24/ffffff/search.png"
-                     alt=''/>
-                  </button>
-                </div>
-            </div>
-            <div className='bottom'>
-                <h3>Not sure where to go? Perfect.</h3>
-                <button>I'm flexible</button>
+                   </div>
             </div>
         </div>
     )

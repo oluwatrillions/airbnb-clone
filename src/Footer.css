@@ -1,0 +1,10 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  min-width: fit-content;
+}
+
+.footer h4 {
+  font-size: 13px;
+  font-weight: 400;
+}

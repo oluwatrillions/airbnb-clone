@@ -1,0 +1,14 @@
+.edited {
+  display: block;
+  margin-left: 22px;
+}
+
+.edited img {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.desc h3 {
+  font-style: 10px;
+}

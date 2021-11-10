@@ -4,7 +4,8 @@ import './Explore.css'
 
 function Explore(props) {
     return (
-        <div>
+        <div className='exploring'>
+            <h1>Explore Nearby</h1>
             <div className='explore-section'>
                 <CitiesAround
                     src='	https://a0.muscache.com/im/pictures/ee86b8d6-b214-43f5-912c-3db2637a5724.jpg?im_q=medq&im_w=240'
