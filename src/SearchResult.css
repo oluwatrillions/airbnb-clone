@@ -1,6 +1,7 @@
 .edited {
   display: block;
   margin-left: 22px;
+  position: relative;
 }
 
 .edited img {
@@ -11,4 +12,16 @@
 
 .desc h3 {
   font-style: 10px;
+}
+
+.edited .iheart {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.imgsDiv img {
+  display: flex;
 }

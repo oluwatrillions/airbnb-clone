@@ -29,6 +29,10 @@
   margin-bottom: 35px;
 }
 
+.buttons :hover {
+  border: 1px solid black;
+}
+
 .btn1 {
   width: 150px;
   height: 37px;
