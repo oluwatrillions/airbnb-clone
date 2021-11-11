@@ -7,6 +7,14 @@
 
 .stays h4 {
   font-size: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 3px;
+  font-weight: 300;
+  color: rgb(97, 86, 86);
+}
+
+.stays h5 {
+  font-size: 15px;
   padding-bottom: 0;
   margin-bottom: 3px;
   font-weight: 300;
@@ -30,6 +38,7 @@
   color: rgb(87, 85, 85);
   border: 1px solid rgb(145, 140, 140);
   font-size: 0.9em;
+  transition: all ease 0.5s;
 }
 
 .btn2 {
@@ -80,7 +89,7 @@
   text-decoration: underline;
 }
 
-.stays p {
-  margin-top: 0;
-  color: rgb(236, 225, 225);
+.reviews {
+  border-bottom: 1px solid rgb(236, 225, 225);
+  margin-top: 10px;
 }

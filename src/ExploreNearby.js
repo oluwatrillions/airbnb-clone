@@ -47,7 +47,7 @@ function ExploreNearby(props) {
                 roomInfo='2 guests. Studio. 1 bed. 1 baths'
                 roomInfoCont='Air conditioning. Wifi. Kitchen'
                 ratings={4.93}
-                price={ 70}/>/>
+                price={ 70}/>
         </div>
     )
 }

@@ -4,7 +4,7 @@ import './Stays.css'
 function Stays() {
     return (
         <div className='stays'>
-            <h4>300+ Stays</h4>
+            <h5>300+ Stays</h5>
             <h1>Stays in Lagos</h1>
             <div className='buttons'>
                 <button className='btn1'>Free cancellation</button>
@@ -13,8 +13,7 @@ function Stays() {
                 <button className='btn4'>Instant Book</button>
                 <button className='btn5'>More Filters</button>
             </div>
-            <h4>Review COVID-19 travel restrictions before you book. <span>Learn more</span></h4>
-            <p>____________________________________________________________________________________________________________</p>
+            <h4 className='reviews'>Review COVID-19 travel restrictions before you book. <span>Learn more</span></h4>
         </div>
     )
 }
