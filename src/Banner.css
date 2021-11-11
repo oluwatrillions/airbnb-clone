@@ -99,4 +99,5 @@ button {
   overflow: hidden;
   margin-left: 45%;
   min-width: fit-content;
+  cursor: pointer;
 }

@@ -9,13 +9,12 @@ function SearchResult({src, location, price, distance}) {
                 <img className='iheart' src="https://img.icons8.com/material-two-tone/50/000000/like--v1.png" alt='heart'/>
             </div>
              <div className='infoRoom'>
-                <h3>{location}</h3>
-                <h3>{ price}</h3>
+                <h3 className='roomLoco'>{location}</h3>
+                <h3 className='pricing'>${ price} <span>/night</span></h3>
             </div>
             <div className='distance'>
                 <h3>{distance}</h3>
             </div>
-           
         </div>
     )
 }

@@ -1,15 +1,19 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './Header.css'
 
 function Header() {
     return (
         <div className='container'>
             <div className='header'>
-                    <header>
+            <Link to='/'>
+                <header>
                        <img className='logo'
                         src='https://i.pinimg.com/originals/3c/bf/be/3cbfbe148597341fa56f2f87ade90956.png'
                         alt=''/>
-                    </header>       
+                    </header> 
+             </Link>
+
                    <div className='mid-header'>
                         <h3>Places to stay</h3>
                         <h3>Experiences</h3>

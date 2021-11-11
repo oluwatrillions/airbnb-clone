@@ -1,5 +1,6 @@
 import React from 'react'
 import './Banner.css'
+import {Link} from 'react-router-dom'
 
 function Banner() {
     return (
@@ -32,7 +33,7 @@ function Banner() {
             </div>
             <div className='bottom'>
                 <h3>Not sure where to go? Perfect.</h3>
-                <button>I'm flexible</button>
+              <Link to='search'>  <button>I'm flexible</button> </Link>
             </div>
         </div>
     )
