@@ -1,11 +1,12 @@
 import React from 'react'
 import CitiesAround from './CitiesAround'
 import './Explore.css'
+import {Link} from 'react-router-dom'
 
 function Explore(props) {
     return (
         <div className='exploring'>
-            <h1>Explore Nearby</h1>
+       <Link to='/explore'> <h1>Explore Nearby</h1> </Link>
             <div className='explore-section'>
                 <CitiesAround
                     src='	https://a0.muscache.com/im/pictures/ee86b8d6-b214-43f5-912c-3db2637a5724.jpg?im_q=medq&im_w=240'
