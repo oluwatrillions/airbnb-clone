@@ -1,0 +1,81 @@
+.nearbySearch {
+  display: flex;
+  padding-bottom: 30px;
+  position: relative;
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 45vw;
+  box-sizing: border-box;
+}
+
+.nearbySearch .picture {
+  width: 350px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.nearbySearch .heart {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 0;
+  right: 10px;
+}
+
+.infoDiv {
+  margin-left: 25px;
+  margin-top: -20px;
+}
+
+.searchInfo h4 {
+  margin-bottom: 0;
+  font-weight: 100;
+  font-size: 16px;
+  color: rgb(105, 104, 104);
+}
+
+.searchInfo h3 {
+  font-weight: 500;
+  margin-top: 5px;
+  color: rgb(66, 55, 55);
+  margin-bottom: 0;
+}
+
+.searchInfo p {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.bottomInfo {
+  display: flex;
+}
+
+.bottomInfo img {
+  width: 17px;
+  height: 17px;
+  margin-top: 65px;
+  padding-right: 2px;
+}
+
+.infoDiv {
+  display: block;
+}
+
+.bottomInfo span {
+  color: black;
+  margin-right: 10px;
+}
+
+.bottomInfo h4 {
+  margin-top: 65px;
+}
+
+.bottomInfo h3 {
+  margin-top: 65px;
+  margin-left: 350px;
+}
+
+.roomInfo {
+  margin-top: 0;
+  padding-top: 0;
+}
